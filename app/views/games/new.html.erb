@@ -1,2 +1,13 @@
-<h1>Games#new</h1>
-<p>Find me in app/views/games/new.html.erb</p>
+<h1 class="title">Longest Word Game</h1>
+<body style="background-color:powderblue;">
+
+  <div class="container">
+    <h1 class="subtitle">New game!</h1>
+
+    <div class="letters">
+      <% @letters.each do |letter| %>
+        <div class="letter"><%= letter %></div>
+      <% end %>
+    </div>
+  <p>Find me in app/views/games/new.html.erb</p>
+</body>

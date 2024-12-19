@@ -13,3 +13,40 @@
  *= require_tree .
  *= require_self
  */
+
+ .title {
+  font-family: fantasy;
+  text-align: center;
+  text-shadow: 0 0 10px rgba(56, 197, 255, 0.5);
+ }
+
+ .subtitle {
+  font-family: fantasy;
+  text-align: center;
+  font-size: larger;
+ }
+
+.letters {
+  display: flex;
+  gap: 10px;
+}
+
+.letter {
+  background-color: #3498db;
+  font-family: sans-serif;
+  color: white;
+  padding: 20px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  background: linear-gradient(145deg, #007bc2, #00a4e4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(56, 197, 255, 0.3);
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
